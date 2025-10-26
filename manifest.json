@@ -1,0 +1,20 @@
+{
+  "name": "Bird's Server Dashboard",
+  "short_name": "Bird Server",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#06b6d4",
+  "icons": [
+    {
+      "src": "https://img.tukuppt.com/png_preview/00/48/80/NpunIk5ciy.jpg!/fw/780",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://img.tukuppt.com/png_preview/00/48/80/NpunIk5ciy.jpg!/fw/780",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
