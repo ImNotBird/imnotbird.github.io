@@ -64,6 +64,20 @@
         .owner-subtitle {
             font-size: 13px;
             color: var(--text-secondary);
+            margin-bottom: 8px; /* 新增：为统计链接预留间距 */
+        }
+        /* 新增：UptimeRobot 统计链接样式 */
+        .stats-link {
+            font-size: 14px;
+            margin-top: 8px;
+        }
+        .stats-link a {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+        .stats-link a:hover {
+            opacity: 0.8;
+            text-decoration: none;
         }
         .services-grid {
             display: grid;
@@ -141,6 +155,9 @@
             .owner-title {
                 font-size: 26px;
             }
+            .stats-link {
+                font-size: 15px; /* 大屏适配：微调字体大小 */
+            }
         }
     </style>
 </head>
@@ -150,6 +167,10 @@
             <div class="service-icon" style="mask-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23000\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3Crect x=\'2\' y=\'2\' width=\'20\' height=\'20\' rx=\'2\' ry=\'2\'/%3E%3Cpath d=\'M6 6h.01\'/%3E%3Cpath d=\'M6 10h.01\'/%3E%3Cpath d=\'M6 14h.01\'/%3E%3C/svg%3E'); -webkit-mask-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23000\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'%3E%3Crect x=\'2\' y=\'2\' width=\'20\' height=\'20\' rx=\'2\' ry=\'2\'/%3E%3Cpath d=\'M6 6h.01\'/%3E%3Cpath d=\'M6 10h.01\'/%3E%3Cpath d=\'M6 14h.01\'/%3E%3C/svg%3E');"></div>
             <h1 class="owner-title">Bird's Server</h1>
             <p class="owner-subtitle">Central Management Dashboard</p>
+            <!-- 新增：UptimeRobot 统计链接 -->
+            <div class="stats-link">
+                <a href="https://stats.uptimerobot.com/qJpKqZ0K2T" target="_blank">查看站点监控统计</a>
+            </div>
         </div>
         <div class="services-grid">
             <div class="service-card">
@@ -158,10 +179,10 @@
                     <div class="service-name">1panel</div>
                 </a>
             </div>
-<div class="service-card">
+            <div class="service-card">
                 <a href="http://199.68.217.70:23333" target="_blank" style="text-decoration: none; color: inherit; display: block; width: 100%; height: 100%;">
                     <div class="service-icon icon-1panel"></div>
-                    <div class="service-name">MCNS	</div>
+                    <div class="service-name">MCNS</div>
                 </a>
             </div>
             <div class="service-card">
